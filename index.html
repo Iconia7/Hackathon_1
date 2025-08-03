@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Newton Mwangi's Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- My Animated Background -->
+    <div class="bg-animation">
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+    </div>
+
+    <!-- Different Navigation to different sections in my portfolio -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- My Hero Section -->
+    <header class="hero">
+        <div class="hero-content">
+            <h1>Hi, I'm Newton Mwangi</h1>
+            <p>A passionate Web and Mobile apps developer creating beautiful and functional digital experiences</p>
+            <a href="#projects" class="cta-button">View My Work</a>
+        </div>
+        <div class="scroll-indicator">↓</div>
+    </header>
+
+    <main>
+        <!-- My About Section -->
+        <section id="about" class="section">
+            <h2>About Me</h2>
+            <div class="about-content">
+                <div class="profile-image">NM</div>
+                <div class="about-text">
+                    <p>Hi! I'm Newton Mwangi, a passionate Web Developer and Mobile App Developer with a love for creating functional and beautiful web and mobile experiences. I enjoy learning new technologies and solving problems through code. Its my hobby and passion.</p>
+                    <p>With a strong foundation in modern Web development and Mobile app development, I focus on creating user-friendly interfaces that not only look great but also provide exceptional user experiences.</p>
+                    <a href="Newton_Mwangi_CV.pdf" download="Newton_Mwangi_CV.pdf" class="cta-button" style="margin-top: 20px; display: inline-block; animation: none;">Download My CV</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- My Skills Section -->
+        <section id="skills" class="section">
+            <h2>Skills & Expertise</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3>Programming Languages</h3>
+                    <ul class="skill-list">
+                        <li>HTML5</li>
+                        <li>CSS3</li>
+                        <li>JavaScript</li>
+                        <li>Dart</li>
+                        <li>React</li>
+                        <li>Java</li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <h3>Interests & Passions</h3>
+                    <ul class="skill-list">
+                        <li>Modern Web Frameworks</li>
+                        <li>UI/UX Design</li>
+                        <li>Mobile App Development</li>
+                        <li>Graphics Design</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- My Projects Section -->
+        <section id="projects" class="section">
+            <h2>Featured Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <h3>Design Services Website</h3>
+                    <p>A modern, responsive website solution built with the latest web technologies. Features include real-time tracking of service, and intuitive user experience.</p>
+                    <a href="https://newton-design.web.app" class="project-button">View Project</a>
+                </div>
+                <div class="project-card">
+                    <h3>Online Music Streaming App</h3>
+                    <p>A music app that enables you to stream music from youtube and also be able to play local music from your phone storage.</p>
+                    <a href="https://github.com/Iconia7/stream_music" class="project-button">View Project</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- My Contact Section -->
+        <section id="contact" class="section">
+            <h2>Let's Work Together</h2>
+            <p style="text-align: center; margin-bottom: 40px; font-size: 1.2rem;">Ready to bring your ideas to life? Let's create something amazing together!</p>
+            
+            <form class="contact-form" action="#" method="POST">
+                <div class="form-group">
+                    <label for="name">Your Name</label>
+                    <input type="text" id="name" name="name" placeholder="Enter your full name" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Email Address</label>
+                    <input type="email" id="email" name="email" placeholder="your.email@example.com" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="message">Project Details</label>
+                    <textarea id="message" name="message" rows="5" placeholder="Tell me about your project ideas..." required></textarea>
+                </div>
+
+                <button type="submit" class="submit-button">Send Message</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Newton Mwangi. All rights reserved.</p>
+    </footer>
+</body>
+</html>
